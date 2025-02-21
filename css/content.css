@@ -1,0 +1,34 @@
+.section1{
+    background-color: #1F201A;
+    width: 100vw;
+    height: 48vw;
+}
+
+.roulette{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.roulette img{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    width: 43%;
+}
+
+#pointer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    width: 100vw;
+}
+
+#pointer img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
