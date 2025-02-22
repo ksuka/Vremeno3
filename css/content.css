@@ -208,3 +208,94 @@
 #two img{
     width: 20%;
 }
+
+#fourteen{
+    margin-top: 3.7vw;
+    margin-left: 4.3vw;
+    width: 29%;
+}
+
+#fourteen img{
+    width: 37%;
+}
+
+#six{
+    margin-top: -5vw;
+    margin-left: 24vw;
+    width: 25%;
+}
+
+#six img{
+    width: 20%;
+}
+
+#eleven{
+    margin-top: -8.5vw;
+    margin-left: 35.9vw;
+    width: 29%;
+}
+
+#eleven img{
+    width: 30%;
+}
+
+#nine{
+    margin-top: -10vw;
+    margin-left: 52vw;
+    width: 25%;
+}
+
+#nine img{
+    width: 38%;
+}
+
+.dices{
+    width: 32vw;
+    height: 32vw;
+    margin-left: 68vw;
+    margin-top: -28.6vw;
+    background: black;
+}
+
+
+
+#dicebubi{
+    width: 31%;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    transform: rotate(18.52deg);
+}
+
+
+#dicetrefi{
+    width: 10%;
+    margin-top: -11vw;
+    position:absolute;
+    margin-left: 19vw;
+    transform: rotate(0deg);
+}
+
+#dicechervi{
+    width: 31%;
+    margin-top: 8vw;
+    margin-left: 2vw;
+    transform: rotate(8.4deg);
+
+}
+
+
+#dicepiki{
+    width:10%;
+    position:absolute;
+    margin-top: -19.5vw;
+    margin-left: 11vw;
+    transform: rotate(-57.78deg);
+}
+
+#dicejoker{
+    width: 10%;
+    position:absolute;
+    margin-top: -11vw;
+    margin-left: 20vw;
+    transform: rotate(-26.76deg);
+}
