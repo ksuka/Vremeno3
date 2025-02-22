@@ -1,3 +1,8 @@
+.body{
+    overflow-x: hidden;
+    background-color: #907B60;
+}
+
 .section1{
     background-color: #1F201A;
     width: 100vw;
@@ -15,15 +20,15 @@
 .roulette img{
     display: flex;
     justify-content: center;
-    margin-top: 3vw;
-    width: 43%;
+    margin-top: 1vw;
+    width: 45%;
 }
 
 #pointer{
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 3vw;
+    margin-top: 1vw;
     width: 100vw;
 }
 
@@ -31,4 +36,123 @@
     position: absolute;
     display: flex;
     justify-content: center;
+}
+
+.vremeno{
+    background: #E9DAC7;
+    position: absolute;
+    width: 32vw;
+    height: 6vw;
+    font-size: 4vw;
+}
+
+.vremeno p{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.vremya{
+    background: #CB0000;
+    position: absolute;
+    width: 25vw;
+    height: 6vw;
+    font-size: 4vw;
+    margin-top: 31vw;
+    margin-left: 75vw;
+}
+
+.vremya p{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.precious{
+    background: #E9DAC7;
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    font-size: 4vw;
+    margin-top: 38vw;
+    margin-left: 70vw;
+}
+
+.precious p{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+
+.chervi1{
+    position:absolute;
+    width: 30%;
+    margin-left: 60vw;
+    margin-top: -9vw;
+    transform: rotate(-94.6deg);
+}
+
+.chervi1 img{
+    width: 23%;
+}
+
+.trefi1{
+    position:absolute;
+    width: 30%;
+    margin-left: 85vw;
+    margin-top: 4vw;
+    transform: rotate(-15.42deg);
+}
+
+.trefi1 img{
+    width: 23%;
+}
+
+.bubi1{
+    position:absolute;
+    width: 30%;
+    margin-left: 73vw;
+    margin-top: 24vw;
+    transform: rotate(45.21deg);
+}
+
+.bubi1 img{
+    width: 23%;
+}
+
+
+.joker1{
+    position:absolute;
+    width: 30%;
+    margin-left: 3vw;
+    margin-top: 13vw;
+    transform: rotate(-45.93deg);
+}
+
+.joker1 img{
+    width: 23%;
+}
+
+.trefi2{
+    position:absolute;
+    width: 30%;
+    margin-left: 9vw;
+    margin-top: 24vw;
+    transform: rotate(-58.03deg);
+}
+
+.trefi2 img{
+    width: 23%;
+}
+
+
+.chervi2{
+    position:absolute;
+    width: 30%;
+    margin-left: 11vw;
+    margin-top: 18vw;
+    transform: rotate(49.69deg);
+}
+
+
+.chervi2  img{
+    width: 23%;
 }

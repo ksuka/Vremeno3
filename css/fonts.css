@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "FuturaPtDemi";
+    src: url("../fonts/FuturaPTDemi.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    
+    p{ font-family: 'FuturaPtDemi'; }
+    
