@@ -228,105 +228,160 @@ cursor: pointer;
     font-family: 'FjallaOne-Regular';
 }
 
-#eight{
-    margin-top: -4vw;
-    margin-left: 23vw;
-    width: 25%;
+.thirteen{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #67543D;
+    border-radius: 50%;
 }
 
-#eight:hover{
-    transform:translateX(-2.5vw) translateY(-2vw);
+.thirteen::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 8vw;
+    height: 8vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "I3";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
-#eight img{
-    width: 20%;
-    transition: all 1s ease-in-out;
+.two{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #0D1143;
+    border-radius: 50%;
 }
 
-#thirteen{
-    margin-top: -8vw;
-    margin-left: 37.5vw;
-    width: 29%;
+.two::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "2";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
-#thirteen img{
-    width: 30%;
-    transition: all 1s ease-in-out;
+.fourteen{
+    margin-top: 17vw;
+    margin-left: -59vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #47422F;
+    border-radius: 50%;
 }
 
-#thirteen:hover{
-    transform:translateX(-2.2vw) translateY(1.7vw);
+.fourteen::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 10vw;
+    height: 10vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "I4";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
-#two{
-    margin-top: -4vw;
-    margin-left: 52vw;
-    width: 25%;
+.six{
+    margin-top: 17vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #00483D;
+    border-radius: 50%;
 }
 
-#two img{
-    width: 20%;
-    transition: all 1s ease-in-out;
+.six::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "6";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
-#two:hover{
-    transform:translateX(5vw) translateY(-3vw);
+.eleven{
+    margin-top: 17vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #CB0000;
+    border-radius: 50%;
 }
 
-#fourteen{
-    margin-top: 3.7vw;
-    margin-left: 4.3vw;
-    width: 29%;
+.eleven::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 8vw;
+    height: 8vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "II";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
-#fourteen img{
-    width: 37%;
+.nine{
+    margin-top: 17vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #C0B6AD;
+    border-radius: 50%;
 }
 
-#fourteen:hover{
-    transform:translateX(-0.5vw) translateY(0.5vw);
-}
-
-#six{
-    margin-top: -5vw;
-    margin-left: 24vw;
-    width: 25%;
-}
-
-#six img{
-    width: 20%;
-}
-
-#six:hover{
-    transform:translateX(-4vw) translateY(-4vw);
-}
-
-#eleven{
-    margin-top: -8.5vw;
-    margin-left: 35.9vw;
-    width: 29%;
-}
-
-#eleven img{
-    width: 30%;
-}
-
-#eleven:hover{
-    transform:translateX(2.5vw) translateY(-2vw);
-}
-
-#nine{
-    margin-top: -10vw;
-    margin-left: 52vw;
-    width: 25%;
-}
-
-#nine img{
-    width: 38%;
-}
-
-#nine:hover{
-    transform: translateY(-1.5vw);
+.nine::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 10vw;
+    height: 10vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "9";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
 }
 
 .dices{
