@@ -8,3 +8,11 @@
     
     p{ font-family: 'FuturaPtDemi'; }
     
+    @font-face {
+        font-family: "FjallaOne-Regular";
+        src: url("../fonts/FjallaOne-Regular.ttf") format("truetype");
+        font-style: normal;
+        font-weight: normal;
+        }
+
+.one::after{ font-family: 'FjallaOne-Regular' ;}

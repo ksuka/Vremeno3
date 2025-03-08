@@ -164,26 +164,69 @@ cursor: pointer;
     height: 32vw;
 }
 
-.billiard img{
+/*.billiard img{
     width: 60%;
     margin-top: 3vw;
     margin-left: 3vw;
 }
+*/
+
+.billiard{
+    display: flex;
+    justify-content: flex-start;
+}
 
 .one{
-    margin-top: -24vw;
-    margin-left: 6vw;
-    width: 25%;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #C0B6AD;
+    border-radius: 50%;
 }
 
-.one img{
-    width: 20%;
-    transition: all 1s ease-in-out;
+.one:after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "I";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
 }
 
-/*#one:hover{
-    transform:translateX(3vw) translateY(3vw);
-}*/
+
+.eight{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 12.5vw;
+    height: 12.5vw;
+    position: relative;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.eight::after{
+    bottom: 2vw;
+    position:absolute;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:#E9DAC7;
+    border-radius: 50%;
+    content: "8";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'FjallaOne-Regular';
+}
 
 #eight{
     margin-top: -4vw;

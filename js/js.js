@@ -70,25 +70,22 @@ const dicebubi = document.getElementById("dicebubi");
   });
   
 
-  function handlemouseMove(event){
-    let one = document.querySelectorAll("one");
-    one.forEach(function(event){
+  function handlemouseMove(event) {
+    let ones = document.querySelectorAll(".one"); // Исправлено: селектор класса и множественное число
 
-let rect = one.getBoundingClientRect();
-let oneX = rect.left - one.clientWidth / 2;
-let oneY = rect.top - one.clientWidth / 2;
+    ones.forEach(function(one) { // Итерируемся по каждому элементу NodeList
+      let rect = one.getBoundingClientRect(); // Получаем размеры и позицию каждого элемента
+      let oneX = rect.left + one.clientWidth / 2;  // Центр элемента по X
+      let oneY = rect.top + one.clientHeight / 2; // Центр элемента по Y
 
-let radian = Math.atan2(event.clientX-oneX, event.clientY-oneY);
-let rotation = (radian * (180/Math.PI)* -1) + 90;
-one.style.transform = `rotate(${rotation}deg)`;
-
-    })
-
+      let radian = Math.atan2(event.clientX - oneX, event.clientY - oneY);
+      let rotation = (radian * (180 / Math.PI) * -1) + 90;
+      one.style.transform = "rotate(" + rotation + "deg)"; //Исправлена интерполяция строк
+    });
   }
 
   let section2 = document.querySelector(".section2");
   section2.addEventListener("mousemove", handlemouseMove);
-
 
 
   
