@@ -14,14 +14,15 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-
+cursor: pointer;
 }
 
-.roulette img{
+.roulettee{
     display: flex;
     justify-content: center;
     margin-top: 1vw;
     width: 45%;
+    transition: transform 0.5s
 }
 
 #pointer{
@@ -169,15 +170,20 @@
     margin-left: 3vw;
 }
 
-#one{
+.one{
     margin-top: -24vw;
     margin-left: 6vw;
     width: 25%;
 }
 
-#one img{
+.one img{
     width: 20%;
+    transition: all 1s ease-in-out;
 }
+
+/*#one:hover{
+    transform:translateX(3vw) translateY(3vw);
+}*/
 
 #eight{
     margin-top: -4vw;
@@ -185,8 +191,13 @@
     width: 25%;
 }
 
+#eight:hover{
+    transform:translateX(-2.5vw) translateY(-2vw);
+}
+
 #eight img{
     width: 20%;
+    transition: all 1s ease-in-out;
 }
 
 #thirteen{
@@ -197,6 +208,11 @@
 
 #thirteen img{
     width: 30%;
+    transition: all 1s ease-in-out;
+}
+
+#thirteen:hover{
+    transform:translateX(-2.2vw) translateY(1.7vw);
 }
 
 #two{
@@ -207,6 +223,11 @@
 
 #two img{
     width: 20%;
+    transition: all 1s ease-in-out;
+}
+
+#two:hover{
+    transform:translateX(5vw) translateY(-3vw);
 }
 
 #fourteen{
@@ -219,6 +240,10 @@
     width: 37%;
 }
 
+#fourteen:hover{
+    transform:translateX(-0.5vw) translateY(0.5vw);
+}
+
 #six{
     margin-top: -5vw;
     margin-left: 24vw;
@@ -227,6 +252,10 @@
 
 #six img{
     width: 20%;
+}
+
+#six:hover{
+    transform:translateX(-4vw) translateY(-4vw);
 }
 
 #eleven{
@@ -239,6 +268,10 @@
     width: 30%;
 }
 
+#eleven:hover{
+    transform:translateX(2.5vw) translateY(-2vw);
+}
+
 #nine{
     margin-top: -10vw;
     margin-left: 52vw;
@@ -247,6 +280,10 @@
 
 #nine img{
     width: 38%;
+}
+
+#nine:hover{
+    transform: translateY(-1.5vw);
 }
 
 .dices{
@@ -264,6 +301,7 @@
     margin-top: 2vw;
     margin-left: 2vw;
     transform: rotate(18.52deg);
+    cursor: pointer;
 }
 
 
@@ -273,6 +311,7 @@
     position:absolute;
     margin-left: 19vw;
     transform: rotate(0deg);
+    cursor: pointer;
 }
 
 #dicechervi{
@@ -280,7 +319,7 @@
     margin-top: 8vw;
     margin-left: 2vw;
     transform: rotate(8.4deg);
-
+    cursor: pointer;
 }
 
 
@@ -290,6 +329,7 @@
     margin-top: -19.5vw;
     margin-left: 11vw;
     transform: rotate(-57.78deg);
+    cursor: pointer;
 }
 
 #dicejoker{
@@ -298,4 +338,117 @@
     margin-top: -11vw;
     margin-left: 20vw;
     transform: rotate(-26.76deg);
+    cursor: pointer;
+}
+
+.section4{
+    width: 100vw;
+    height: 48vw;
+}
+
+.spiral{
+    width: 45vw;
+    height: 48vw;
+    background-color: #CB0000;
+    overflow:hidden;
+}
+
+.spiral img{
+    width: 150%;
+    margin-top: -5vw;
+    margin-left: -10vw;
+}
+
+#timer{
+    width: 55vw;
+    height: 20vw;
+    margin-left: 45vw;
+    margin-top: -48vw;
+    font-size: 15vw;
+    background-color: black;
+}
+
+#timerr{
+    color: #CB0000;
+    /*margin-top: 10vw;
+    margin-left: 10vw*/
+}
+
+.luckyy{
+    width: 55vw;
+    height: 28vw;
+    margin-left: 45vw;
+    margin-top: 3vw;
+    background-color: #907B60;
+}
+
+.luck img{
+    width: 17%;
+}
+
+.lucky{
+    margin-top: -3vw;
+    position: relative;
+}
+
+#luck1{
+  margin-left: 0vw;
+    transform: rotate(35.99deg);
+}
+#luck2{
+    margin-left: 0vw;
+    transform: rotate(-35.99deg);
+}
+
+#luck3{
+    margin-left: -1vw;
+    transform: rotate(35.99deg);
+}
+
+#luck4{
+    margin-left: 0vw;
+    transform: rotate(-35.99deg);
+}
+
+#luck5{
+    margin-left: -1vw;
+    transform: rotate(35.99deg);
+}
+
+
+
+#luck6{
+    margin-left: 0vw;
+      transform: rotate(-35.99deg);
+  }
+  #luck7{
+      margin-left: 0vw;
+      transform: rotate(35.99deg);
+  }
+  
+  #luck8{
+      margin-left: -1vw;
+      transform: rotate(-35.99deg);
+  }
+  
+  #luck9{
+      margin-left: 0vw;
+      transform: rotate(35.99deg);
+  }
+  
+  #luck10{
+      margin-left: -1vw;
+      transform: rotate(-35.99deg);
+  }
+
+  .grey{
+    width: 100vw;
+    height: 10vw;
+    background-color:#1F201A;
+  }
+
+.bingo{
+    width: 100vw;
+    height: 30vw;
+    background-color:#E9DAC7;
 }

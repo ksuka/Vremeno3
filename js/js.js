@@ -1,35 +1,25 @@
 document.addEventListener('DOMContentLoaded', function(){
 
 
-
-/*let roulette = document.querySelector(".roulette");
-let btn = document.getElementById("btn");
+/*
+let roulette = document.querySelector(".roulette");
 let number = Math.ceil(Math.random() * 1000);
 
 
-btn.onclick = function () {
-    roulette.style.transform = "rotate(" + number + "deg)";
+roulette.onclick = function () {
+  roulette.style.transform = "rotate(" + number + "deg)";
   number += Math.ceil(Math.random() * 1000);
-
 };*/
 
-/*const one = this.getElementById("one");
-let rotation = 0;
 
-one.addEventListener('click', function(){
-  rotation += 45;
-  one.style.transform = 'rotate(${rotation}deg)';
+let roulettee = document.querySelector(".roulette");
+let number = Math.ceil(Math.random() * 1000);
 
-});
-*/
 
-/*const one = document.getElementById("one");
-
-one.addEventListener("click", function moveElement() {
-  one.style.left = '5vw';
-
-})*/
-
+roulettee.onclick = function () {
+  roulettee.style.transform = "rotate(" + number + "deg)";
+  number += Math.ceil(Math.random() * 1000);
+};
 
 
 const dicebubi = document.getElementById("dicebubi");
@@ -79,6 +69,28 @@ const dicebubi = document.getElementById("dicebubi");
     dicejoker.style.transform = `rotate(${rot}deg)`;
   });
   
+
+  function handlemouseMove(event){
+    let one = document.querySelectorAll("one");
+    one.forEach(function(event){
+
+let rect = one.getBoundingClientRect();
+let oneX = rect.left - one.clientWidth / 2;
+let oneY = rect.top - one.clientWidth / 2;
+
+let radian = Math.atan2(event.clientX-oneX, event.clientY-oneY);
+let rotation = (radian * (180/Math.PI)* -1) + 90;
+one.style.transform = `rotate(${rotation}deg)`;
+
+    })
+
+  }
+
+  let section2 = document.querySelector(".section2");
+  section2.addEventListener("mousemove", handlemouseMove);
+
+
+
   
 
 });
