@@ -385,10 +385,10 @@ cursor: pointer;
 }
 
 .dices{
-    width: 32vw;
+    width: 32.2vw;
     height: 32vw;
     margin-left: 68vw;
-    margin-top: -28.6vw;
+    margin-top: -29.5vw;
     background: black;
 }
 
@@ -437,6 +437,19 @@ cursor: pointer;
     margin-left: 20vw;
     transform: rotate(-26.76deg);
     cursor: pointer;
+}
+
+.section3{
+    width: 100vw;
+    height: 20vw;
+    background-color: #610002;
+    display:flex;
+    align-content: flex-start;
+    overflow-x: hidden;
+}
+
+.ticket{
+width: 30vw;
 }
 
 .section4{
@@ -547,6 +560,46 @@ cursor: pointer;
 
 .bingo{
     width: 100vw;
-    height: 30vw;
+    height: 32.5vw;
     background-color:#E9DAC7;
+    cursor: url('../img/cursorb.png') 16 16, auto;
+}
+
+.grid{
+    width: 100vw;
+}
+
+.eighty-nine{
+    margin-top: -30.5vw;
+    margin-left: 13.5vw;
+    font-size: 6vw;
+    color: #CB0000;
+}
+
+.seven{
+    margin-top: 5.5vw;
+    margin-left: 27vw;
+    font-size: 6vw;
+    color: #CB0000;
+}
+
+.forty-five{
+    margin-top: -17.5vw;
+    margin-left: 52vw;
+    font-size: 6vw;
+    color: #CB0000;
+}
+
+.ninee{
+    margin-top: 5.5vw;
+    margin-left: 66vw;
+    font-size: 6vw;
+    color: #CB0000;
+}
+
+.sixxx{
+    margin-top: 5.5vw;
+    margin-left: 78.5vw;
+    font-size: 6vw;
+    color: #CB0000;
 }

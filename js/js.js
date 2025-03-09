@@ -71,7 +71,7 @@ const dicebubi = document.getElementById("dicebubi");
   
 
   function handlemouseMove(event) {
-    let ones = document.querySelectorAll(".one"); 
+    let ones = document.querySelectorAll(".one, .eight, .thirteen, .two, .fourteen, .six, .eleven, .nine"); 
 
     ones.forEach(function(one) { // Итерируемся по каждому элементу NodeList
       let rect = one.getBoundingClientRect(); // Получаем размеры и позицию каждого элемента
@@ -87,23 +87,6 @@ const dicebubi = document.getElementById("dicebubi");
   let section2 = document.querySelector(".section2");
   section2.addEventListener("mousemove", handlemouseMove);
 
-/*
-function mousemove(event){
-let eights = document.querySelectorAll('.eight');
-
-eights.forEach(function(eight){
-let rec = document.getBoundingClientRect();
-let eightX = rec.left + eight.clientX / 2;
-let eightY = rec.top + eight.clientY /2;
-
-let radiann = Math.atan2(event.clientX - eightX, event.clientY - eightY);
-let rotat = (radiann * (180/Math.PI) * -1) + 90;
-eight.style.transform = "rotate(" + rotat + "deg)";
-
-let section2 = document.querySelector(".section2");
-section2.addEventListener("mousemove", handlemouseMove);
-});
-}*/
 
 
 
