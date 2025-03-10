@@ -14,7 +14,8 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-cursor: pointer;
+    cursor: pointer;
+    transition: transform 5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .roulettee{
@@ -387,7 +388,7 @@ cursor: pointer;
 .dices{
     width: 32.2vw;
     height: 32vw;
-    margin-left: 68vw;
+    margin-left: 67.8vw;
     margin-top: -29.5vw;
     background: black;
 }
@@ -443,19 +444,65 @@ cursor: pointer;
     width: 100vw;
     height: 20vw;
     background-color: #610002;
-    display:flex;
-    align-content: flex-start;
+    /*display:flex;
+    align-content: flex-start;*/
     overflow-x: hidden;
 }
 
 .ticket{
-width: 30vw;
+width: 5vw;
+}
+
+.ticket1{
+    margin-top: 3vw;
+    margin-left: 0vw;
+}
+
+.ticket2{
+    margin-top: -19vw;
+    margin-left: 25vw;
+    position: relative;
+}
+
+.ticket3{
+    margin-top: -17vw;
+    margin-left: 50vw;
+}
+
+.ticket4{
+    margin-top: -20vw;
+    margin-left: 75vw;
 }
 
 .section4{
     width: 100vw;
     height: 48vw;
+    background-color: #907B60;
+    cursor: url('../img/coin.svg') 64 64, auto;
 }
+
+
+.section5{
+    width: 100vw;
+    height: 48vw;
+}
+
+.lottery{
+       position:relative;
+    width: 53vw;
+    height: 40vw;
+    background-color:#E9DAC7; 
+}
+
+
+.grid2{
+    width: 55vw;
+    height: 40vw;
+}
+
+
+
+
 
 .spiral{
     width: 45vw;
@@ -562,18 +609,19 @@ width: 30vw;
     width: 100vw;
     height: 32.5vw;
     background-color:#E9DAC7;
-    cursor: url('../img/cursorb.png') 16 16, auto;
+    cursor: url('../img/cursorb.svg') 16 16, auto;
 }
 
 .grid{
     width: 100vw;
 }
 
-.eighty-nine{
+.eightynine{
     margin-top: -30.5vw;
     margin-left: 13.5vw;
     font-size: 6vw;
     color: #CB0000;
+    
 }
 
 .seven{
@@ -602,4 +650,16 @@ width: 30vw;
     margin-left: 78.5vw;
     font-size: 6vw;
     color: #CB0000;
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 13vw;
+    height: 13vw;
+    display: none;
+    background-color: #00483D;
+    opacity: 60%;
+    position: absolute;
+    margin-top: -30vw;
+    margin-left: 14vw;
 }

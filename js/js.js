@@ -13,7 +13,7 @@ roulette.onclick = function () {
 
 
 let roulettee = document.querySelector(".roulette");
-let number = Math.ceil(Math.random() * 1000);
+let number = 360*5 + Math.ceil(Math.random() * 1000);
 
 
 roulettee.onclick = function () {
@@ -90,8 +90,26 @@ const dicebubi = document.getElementById("dicebubi");
 
 
 
+/*
+let circle1 = document.querySelectorAll('.circle1')
 
+circle1.onclick = function () {
+  if (circle1.style.display === 'none') {
+  circle1.style.display = 'block';
+} else {
+  circle1.style.display = 'none';
+}
 
+ 
+  };*/
+
+  let circle1 = document.querySelectorAll(".circle1");
+  
+  
+  circle1.onclick = function () {
+    circle1.style.display = block;
+
+  };
 
 
 
