@@ -19,9 +19,7 @@
 }
 
 .roulettee{
-    display: flex;
-    justify-content: center;
-    margin-top: 1vw;
+    margin-top: 2vw;
     width: 45%;
     transition: transform 0.5s
 }
@@ -479,6 +477,168 @@ width: 5vw;
     height: 48vw;
     background-color: #907B60;
     cursor: url('../img/coin.svg') 64 64, auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.lottery{
+       position:relative;
+    width: 53vw;
+    height: 40vw;
+
+    margin-left: 23.5vw;
+}
+
+.lottery img{
+ width: 53vw;
+ height: 40vw;
+ margin-top: 4vw;
+
+}
+
+.grid2{
+    width: 55vw;
+    height: 40vw;
+}
+
+.pika{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -33vw;
+    margin-left: 26vw;
+}
+
+.cherv{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -33vw;
+    margin-left: 39vw;
+}
+
+.pika2{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -33vw;
+    margin-left: 52.5vw;
+}
+
+.buba{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -33vw;
+    margin-left: 65.5vw;
+}
+
+.buba2{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -20vw;
+    margin-left: 26vw;
+}
+
+
+.jokera{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -20vw;
+    margin-left: 39vw;
+}
+
+.cherv2{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -20vw;
+    margin-left: 52.5vw;
+}
+
+.trefa{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -20vw;
+    margin-left: 65.5vw;
+}
+
+.trefa2{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -7vw;
+    margin-left: 26vw;
+}
+
+.buba3{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -7vw;
+    margin-left: 39vw;
+}
+
+.pika3{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -7vw;
+    margin-left: 52.5vw;
+}
+
+.jokera2{
+    position:absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: -7vw;
+    margin-left: 65.5vw;
+}
+
+.coin1{
+    width: 27vw;
+    height: 27vw;
+    position:absolute;
+    margin-top: -44vw;
+    margin-left: -10vw;
+}
+
+.coin2{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -25vw;
+    margin-left: 0vw;
+}
+
+.coin3{
+    width: 27vw;
+    height: 27vw;
+    position:absolute;
+    margin-top: -25vw;
+    margin-left: 5vw;
+    transform: rotate(56deg);
+}
+
+.coin4{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -10vw;
+    margin-left: 2vw;
+    transform: rotate(-64deg);
+}
+
+.coin5{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -47vw;
+    margin-left: 16vw;
+    transform: rotate(50deg);
 }
 
 
@@ -486,23 +646,6 @@ width: 5vw;
     width: 100vw;
     height: 48vw;
 }
-
-.lottery{
-       position:relative;
-    width: 53vw;
-    height: 40vw;
-    background-color:#E9DAC7; 
-}
-
-
-.grid2{
-    width: 55vw;
-    height: 40vw;
-}
-
-
-
-
 
 .spiral{
     width: 45vw;
