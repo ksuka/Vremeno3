@@ -641,6 +641,89 @@ width: 5vw;
     transform: rotate(50deg);
 }
 
+.coin6{
+    width: 27vw;
+    height: 27vw;
+    position:absolute;
+    margin-top: -5vw;
+    margin-left: 18vw;
+    transform: rotate(16deg);
+}
+
+.coin7{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: 2vw;
+    margin-left: 32vw;
+    transform: rotate(5deg);
+}
+
+.coin8{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: 3vw;
+    margin-left: 50vw;
+    transform: rotate(-27deg);
+}
+
+.coin9{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -5vw;
+    margin-left: 70vw;
+    transform: rotate(-90deg);
+}
+
+.coin10{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -25vw;
+    margin-left: 85vw;
+    transform: rotate(-90deg);
+}
+
+.coin11{
+    width: 27vw;
+    height: 27vw;
+    position:absolute;
+    margin-top: -40vw;
+    margin-left: 87vw;
+    transform: rotate(16deg);
+}
+
+
+.coin12{
+    width: 18vw;
+    height: 18vw;
+    position:absolute;
+    margin-top: -42vw;
+    margin-left: 78vw;
+    transform: rotate(-90deg);
+}
+
+.coin13{
+    width: 27vw;
+    height: 27vw;
+    position:absolute;
+    margin-top: -55vw;
+    margin-left: 25vw;
+    transform: rotate(16deg);
+}
+
+.canvas{
+    position: absolute;
+    width: 53vw;
+    height: 40vw;
+    margin-top: -20vw;
+    background-color: #67543D;
+}
+
+
+
 
 .section5{
     width: 100vw;
