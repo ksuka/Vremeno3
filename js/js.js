@@ -147,7 +147,7 @@ function erase(event){
   const eraserSize = 20; 
   ctx.clearRect(x - eraserSize / 2, y - eraserSize / 2, eraserSize, eraserSize);
   ctx.globalCompositeOperation = 'destination-out';
-  drawArc(ctx, x, y, 5, eraserSize/2, eraserSize/4);
+  ctx.arc(x, y, eraserSize / 2, 0, 2 * Math.PI);
   ctx.fill();
 }
 
