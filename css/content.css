@@ -714,12 +714,10 @@ width: 5vw;
     transform: rotate(16deg);
 }
 
-.canvas{
+#canvas{
     position: absolute;
-    width: 53vw;
-    height: 40vw;
-    margin-top: -20vw;
-    background-color: #67543D;
+margin-top: -35vw;
+margin-left: 24vw;
 }
 
 

@@ -101,7 +101,7 @@ circle1.onclick = function () {
 }
 
  
-  };*/
+  };
 
   let circle1 = document.querySelectorAll(".circle1");
   
@@ -109,17 +109,47 @@ circle1.onclick = function () {
   circle1.onclick = function () {
     circle1.style.display = block;
 
-  };
+  };*/
 
 
-  const canvas = document.querySelectorAll(".canvas");
+  const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
-  ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+  ctx.fillStyle = "#555555";
+  ctx.fillRect(0, 0, 800, 600);
 
 
+let IsErasing = false;
 
+canvas.addEventListener("mousedown", function(event){
+  IsErasing = true;
+  erase(event);
+});
 
+canvas.addEventListener("mouseup", function(){
+  IsErasing = false;
+})
 
+canvas.addEventListener("mouseleave", function(){
+  IsErasing = false;
+})
+
+canvas.addEventListener("mousemove", function(event){
+  if (IsErasing){
+    erase(event);
+  }
+});
+
+function erase(event){
+  const rect = canvas.getBoundingClientRect();
+  const x = event.clientX - rect.left;
+  const y = event.clientY - rect.top;
+  const eraserSize = 20; 
+  ctx.clearRect(x - eraserSize / 2, y - eraserSize / 2, eraserSize, eraserSize);
+  ctx.globalCompositeOperation = 'destination-out';
+  drawArc(ctx, x, y, 5, eraserSize/2, eraserSize/4);
+  ctx.fill();
+}
 
 
 
