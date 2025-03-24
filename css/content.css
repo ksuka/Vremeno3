@@ -1,5 +1,6 @@
 .body{
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: #907B60;
 }
 
@@ -496,9 +497,11 @@ width: 5vw;
 
 }
 
+
 .grid2{
     width: 55vw;
     height: 40vw;
+    pointer-events: none;
 }
 
 .pika{
@@ -597,6 +600,13 @@ width: 5vw;
     margin-top: -7vw;
     margin-left: 65.5vw;
 }
+.masti{
+    pointer-events: none;}
+
+.coins{
+    display: flex;
+    align-items: flex-start;
+}
 
 .coin1{
     width: 27vw;
@@ -604,6 +614,7 @@ width: 5vw;
     position:absolute;
     margin-top: -44vw;
     margin-left: -10vw;
+    pointer-events: none;
 }
 
 .coin2{
@@ -612,6 +623,7 @@ width: 5vw;
     position:absolute;
     margin-top: -25vw;
     margin-left: 0vw;
+    pointer-events: none;
 }
 
 .coin3{
@@ -621,6 +633,7 @@ width: 5vw;
     margin-top: -25vw;
     margin-left: 5vw;
     transform: rotate(56deg);
+    pointer-events: none;
 }
 
 .coin4{
@@ -630,93 +643,97 @@ width: 5vw;
     margin-top: -10vw;
     margin-left: 2vw;
     transform: rotate(-64deg);
+    pointer-events: none;
 }
 
 .coin5{
     width: 18vw;
     height: 18vw;
-    position:absolute;
+    position: relative;
     margin-top: -47vw;
     margin-left: 16vw;
     transform: rotate(50deg);
+    pointer-events: none;
 }
 
 .coin6{
     width: 27vw;
     height: 27vw;
-    position:absolute;
     margin-top: -5vw;
-    margin-left: 18vw;
+    margin-left: -15vw;
     transform: rotate(16deg);
+    pointer-events: none;
 }
 
 .coin7{
     width: 18vw;
     height: 18vw;
-    position:absolute;
-    margin-top: 2vw;
-    margin-left: 32vw;
+    margin-top: -3vw;
+    margin-left: -12vw;
     transform: rotate(5deg);
+    pointer-events: none;
 }
 
 .coin8{
     width: 18vw;
     height: 18vw;
-    position:absolute;
-    margin-top: 3vw;
-    margin-left: 50vw;
+    margin-top: 1vw;
+    margin-left: 0vw;
     transform: rotate(-27deg);
+    pointer-events: none;
 }
 
 .coin9{
     width: 18vw;
     height: 18vw;
-    position:absolute;
+
     margin-top: -5vw;
-    margin-left: 70vw;
+    margin-left: 10vw;
     transform: rotate(-90deg);
+    pointer-events: none;
 }
 
 .coin10{
     width: 18vw;
     height: 18vw;
-    position:absolute;
+
     margin-top: -25vw;
-    margin-left: 85vw;
+    margin-left: -10vw;
     transform: rotate(-90deg);
+    pointer-events: none;
 }
 
 .coin11{
     width: 27vw;
     height: 27vw;
-    position:absolute;
     margin-top: -40vw;
-    margin-left: 87vw;
+    margin-left: -17vw;
     transform: rotate(16deg);
+    pointer-events: none;
 }
 
 
 .coin12{
     width: 18vw;
     height: 18vw;
-    position:absolute;
     margin-top: -42vw;
-    margin-left: 78vw;
+    margin-left: -40vw;
     transform: rotate(-90deg);
+    pointer-events: none;
 }
 
 .coin13{
     width: 27vw;
     height: 27vw;
-    position:absolute;
     margin-top: -55vw;
-    margin-left: 25vw;
+    margin-left: -70vw;
     transform: rotate(16deg);
+    pointer-events: none;
 }
 
 #canvas{
     position: absolute;
-margin-top: -35vw;
+margin-top: -37vw;
 margin-left: 24vw;
 }
 
@@ -733,12 +750,24 @@ margin-left: 24vw;
     height: 48vw;
     background-color: #CB0000;
     overflow:hidden;
+    
+}
+
+@keyframes spiral{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
 }
 
 .spiral img{
     width: 150%;
     margin-top: -5vw;
     margin-left: -10vw;
+    animation: spiral 2s infinite ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.spiral img:hover{
+animation-play-state: paused;
 }
 
 #timer{
@@ -776,6 +805,7 @@ margin-left: 24vw;
 #luck1{
   margin-left: 0vw;
     transform: rotate(35.99deg);
+
 }
 #luck2{
     margin-left: 0vw;
@@ -788,7 +818,7 @@ margin-left: 24vw;
 }
 
 #luck4{
-    margin-left: 0vw;
+    margin-left: -0.5vw;
     transform: rotate(-35.99deg);
 }
 
@@ -797,12 +827,19 @@ margin-left: 24vw;
     transform: rotate(35.99deg);
 }
 
-
-
 #luck6{
-    margin-left: 0vw;
+    margin-left: -0.5vw;
       transform: rotate(-35.99deg);
   }
+
+.luckyyy{
+    margin-top: -1vw;
+}
+
+.luckyyyy{
+    margin-top: -1vw;
+}
+  /*
   #luck7{
       margin-left: 0vw;
       transform: rotate(35.99deg);
@@ -822,7 +859,7 @@ margin-left: 24vw;
       margin-left: -1vw;
       transform: rotate(-35.99deg);
   }
-
+*/
   .grey{
     width: 100vw;
     height: 10vw;
@@ -833,7 +870,7 @@ margin-left: 24vw;
     width: 100vw;
     height: 32.5vw;
     background-color:#E9DAC7;
-    cursor: url('../img/cursorb.svg') 16 16, auto;
+   cursor: url('../img/cursorb.svg') 16 16, auto;
 }
 
 .grid{
@@ -845,7 +882,7 @@ margin-left: 24vw;
     margin-left: 13.5vw;
     font-size: 6vw;
     color: #CB0000;
-    
+
 }
 
 .seven{
@@ -886,4 +923,199 @@ margin-left: 24vw;
     position: absolute;
     margin-top: -30vw;
     margin-left: 14vw;
+
+}
+
+.circle1.visible {
+    display: block;}
+
+.secion7{
+    width: 100vw;
+    height: 48vw;
+    background-color: #1F201A;
+    overflow-x: hidden;
+}
+
+.anothercards{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.trefic1{
+    width: 10vw;
+    transform: rotate(-144.22deg);
+    position: absolute;
+    top: 245vw;
+    left: 15vw;
+}
+
+.bubic1{
+    position: absolute;
+    width:10vw;
+    transform: rotate(94.8deg);
+    top: 260vw;
+    left: 10vw;
+}
+
+.bubic2{
+    position: absolute;
+    width:10vw;
+    transform: rotate(69.96deg);
+    top: 263vw;
+    left: 40vw;
+}
+
+.pikic1{
+    position: absolute;
+    width:10vw;
+    transform: rotate(16.63deg);
+    top: 242vw;
+    left: 32vw;
+}
+
+.chervic1{
+    position: absolute;
+    width:10vw;
+    transform: rotate(106.72deg);
+    top: 249vw;
+    left: 25vw;
+}
+
+.trefic2{
+    position: absolute;
+    width:10vw;
+    transform: rotate(168.8deg);
+    top: 258vw;
+    left: 34vw;
+}
+
+.jokerc1{
+    position: absolute;
+    width:10vw;
+    transform: rotate(146.42deg);
+    top: 260vw;
+    left: 30vw;
+}
+
+.chervic2{
+    position: absolute;
+    width:10vw;
+    transform: rotate(-58.03deg);
+    top: 265vw;
+    left: 20vw;
+}
+
+.jokerc2{
+    position: absolute;
+    width:10vw;
+    transform: rotate(85.21deg);
+    top: 272vw;
+    left: 23vw;
+}
+
+.jokerc3{
+    position: absolute;
+    width:10vw;
+    transform: rotate(-29.05deg);
+    top: 248vw;
+    left: 44vw;
+}
+
+.chervic3{
+    position: absolute;
+    width:10vw;
+    transform: rotate(59.74deg);
+    top: 244vw;
+    left: 60vw;
+}
+
+.trefic3{
+    position: absolute;
+    width:10vw;
+    transform: rotate(51.03deg);
+    top: 270vw;
+    left: 47vw;
+}
+
+.bubic3{
+    position: absolute;
+    width:10vw;
+    transform: rotate(47.81deg);
+    top: 255vw;
+    left: 59vw;
+}
+
+.pikic2{
+    position: absolute;
+    width:10vw;
+    transform: rotate(-178.62deg);
+    top: 255vw;
+    left: 50vw;
+}
+
+.pikic3{
+    position: absolute;
+    width:10vw;
+    transform: rotate(134.4deg);
+    top: 255vw;
+    left: 80vw;
+}
+
+.jokerc4{
+    position: absolute;
+    width:10vw;
+    transform: rotate(88.72deg);
+    top: 265vw;
+    left: 67vw;
+}
+
+.pikic4{
+    position: absolute;
+    width:10vw;
+    transform: rotate(16.63deg);
+    top: 268vw;
+    left: 70vw;
+}
+
+.trefic4{
+    position: absolute;
+    width:10vw;
+    transform: rotate(29.05deg);
+    top: 250vw;
+    left: 70vw;
+}
+
+.hand1{
+    position: relative;
+    width:50vw;
+    margin-top: 2vw;
+    margin-left: 65vw;
+    pointer-events: none;
+}
+
+.hand2{
+    position: relative;
+    width:50vw;
+    margin-top: 7vw;
+    margin-left: 60vw;
+    transform: rotateX(180deg);
+    pointer-events: none;
+}
+
+.hand3{
+    position: absolute;
+    width:50vw;
+    margin-top: -45vw;
+    margin-left: -15vw;
+    pointer-events: none;
+}
+
+.hand4{
+    position: absolute;
+    width:50vw;
+    margin-top: -18vw;
+    margin-left: -23vw;
+    pointer-events: none;
+    transform: rotateX(180deg);
 }
