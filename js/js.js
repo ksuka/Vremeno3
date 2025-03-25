@@ -11,6 +11,7 @@ roulettee.onclick = function () {
 };
 
 
+
 const dicebubi = document.getElementById("dicebubi");
   let rotation = 0;
 
@@ -206,47 +207,38 @@ circle5.classList.toggle('visible')
 
 
 
-let containers = document.querySelectorAll(".cardsc1, .cardsc2");
+let draggedElement = null;
+let offsetX = 0, offsetY = 0;
 
-containers.forEach(function(container){
-  let cardsc = container.querySelectorAll("img");
-
-  cardsc.forEach(function(ecards) {
-  let isDragging = false; 
-  let offsetX=0;
-  let offsetY=0;
-
-  ecards.addEventListener("mousedown", function(event) {
-    isDragging = true;
-
-    offsetX = event.clientX - ecards.getBoundingClientRect().left;
-    offsetY = event.clientY - ecards.getBoundingClientRect().top;
-    ecards.style.cursor = 'grabbing';  
-
-    function onMouseMove(event) {
-      if (isDragging) { 
-        let x = event.pageX - offsetX;
-        let y = event.pageY - offsetY;
-
-  
-        ecards.style.left = x + "px";
-        ecards.style.top = y + "px";
-      }
-    }
-
-    function onMouseUp(event) { 
-      isDragging = false; 
-      ecards.style.cursor = 'grab'; 
-      document.removeEventListener("mousemove", onMouseMove);
-      document.removeEventListener("mouseup", onMouseUp);
-    }
+document.querySelectorAll(".cardsc1 img, .cardsc2 img").forEach(img => {
+  img.addEventListener("mousedown", function(event) {
+    draggedElement = this;
+    offsetX = event.clientX - draggedElement.getBoundingClientRect().left;
+    offsetY = event.clientY - draggedElement.getBoundingClientRect().top;
+    draggedElement.style.cursor = "grabbing";
 
     document.addEventListener("mousemove", onMouseMove);
     document.addEventListener("mouseup", onMouseUp);
-
   });
 });
-});
+
+function onMouseMove(event) {
+  if (draggedElement) {
+    let x = event.pageX - offsetX;
+    let y = event.pageY - offsetY;
+    draggedElement.style.left = x + "px";
+    draggedElement.style.top = y + "px";
+  }
+}
+
+function onMouseUp() {
+  if (draggedElement) {
+    draggedElement.style.cursor = "grab";
+    draggedElement = null; 
+  }
+  document.removeEventListener("mousemove", onMouseMove);
+  document.removeEventListener("mouseup", onMouseUp);
+}
 
 
 

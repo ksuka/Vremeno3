@@ -1,13 +1,193 @@
 @media screen and (min-width: 1441px) and (max-width: 1920px){
 #canvas{
-    width: 810px;
-    height:720px;
+    width: 53vw;
+    height: 46.5vw;
+    margin-top: -36vw;
+    margin-left: 23.5vw;
+}
+
+#luck2{
+    margin-left: -0.5vw;
+    transform: rotate(-35.99deg);
+}
+
+#luck3{
+    margin-left: -1vw;
+    transform: rotate(35.99deg);
+}
+
+#luck4{
+    margin-left: -0.8vw;
+    transform: rotate(-35.99deg);
+}
+}
+
+@media screen and  (min-width: 1367px) and (max-width: 1440px){
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
+    
+    #luck2{
+        margin-left: -0.5vw;
+        transform: rotate(-35.99deg);
+    }
+    
+    #luck3{
+        margin-left: -1vw;
+        transform: rotate(35.99deg);
+    }
+    
+    #luck4{
+        margin-left: -0.8vw;
+        transform: rotate(-35.99deg);
+    }
 }
     
         
+    
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
+
+    #luck2{
+        margin-left: -0.5vw;
+        transform: rotate(-35.99deg);
     }
     
-    @media screen and (min-width: 1025px) and (max-width: 1366px){
-    
+    #luck3{
+        margin-left: -1vw;
+        transform: rotate(35.99deg);
     }
     
+    #luck4{
+        margin-left: -0.8vw;
+        transform: rotate(-35.99deg);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
+
+      #luck2{
+          margin-left: -0.5vw;
+          transform: rotate(-35.99deg);
+      }
+      
+      #luck3{
+          margin-left: -1vw;
+          transform: rotate(35.99deg);
+      }
+      
+      #luck4{
+          margin-left: -0.8vw;
+          transform: rotate(-35.99deg);
+      }
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px){
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
+
+    #luck2{
+        margin-left: -1vw;
+        transform: rotate(-35.99deg);
+    }
+    
+    #luck3{
+        margin-left: -1.5vw;
+        transform: rotate(35.99deg);
+    }
+    
+    #luck4{
+        margin-left: -1vw;
+        transform: rotate(-35.99deg);
+    }
+
+    #luck5{
+        margin-left: -1.5vw;
+        transform: rotate(35.99deg);
+    }
+    
+    #luck6{
+        margin-left: -1vw;
+          transform: rotate(-35.99deg);
+      }
+}
+    
+@media screen and (min-device-width: 360px) and (max-device-width: 414px){
+
+    .section1{
+        width: 100vw;
+        height: 160vw;
+    }
+
+    .roulette{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 105vw;
+        margin-top: 40vw;
+        margin-left: -2vw;
+    }
+
+    .roulettee{
+        width: 85%;
+    }
+
+    #pointer{
+        margin-top: 35vw;
+        margin-left: 50vw;
+    }
+    
+    #pointer img{
+        width: 10vw;
+    }
+
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
+
+    #luck2{
+        margin-left: -1vw;
+        transform: rotate(-35.99deg);
+    }
+    
+    #luck3{
+        margin-left: -1.5vw;
+        transform: rotate(35.99deg);
+    }
+    
+    #luck4{
+        margin-left: -1vw;
+        transform: rotate(-35.99deg);
+    }
+
+    #luck5{
+        margin-left: -1.5vw;
+        transform: rotate(35.99deg);
+    }
+    
+    #luck6{
+        margin-left: -1vw;
+          transform: rotate(-35.99deg);
+      }
+}

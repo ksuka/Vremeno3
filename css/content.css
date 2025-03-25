@@ -17,10 +17,10 @@
     width: 100vw;
     cursor: pointer;
     transition: transform 5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    margin-top: 2vw;
 }
 
 .roulettee{
-    margin-top: 2vw;
     width: 45%;
     transition: transform 0.5s
 }
@@ -30,13 +30,14 @@
     display: flex;
     justify-content: center;
     margin-top: 1vw;
-    width: 100vw;
+    margin-left: 50vw;
 }
 
 #pointer img{
     position: absolute;
     display: flex;
     justify-content: center;
+    width: 5vw;
 }
 
 .vremeno{
