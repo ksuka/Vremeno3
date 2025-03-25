@@ -1,17 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
 
-/*
-let roulette = document.querySelector(".roulette");
-let number = Math.ceil(Math.random() * 1000);
-
-
-roulette.onclick = function () {
-  roulette.style.transform = "rotate(" + number + "deg)";
-  number += Math.ceil(Math.random() * 1000);
-};*/
-
-
 let roulettee = document.querySelector(".roulette");
 let number = 360*5 + Math.ceil(Math.random() * 1000);
 
@@ -108,15 +97,7 @@ const dicebubi = document.getElementById("dicebubi");
   
 
 
-
-  const eightynine = document.querySelector(".eightynine");
-    const circle1 = document.querySelector(".circle1");
-
-    eightynine.addEventListener('click', function() {
-      circle1.classList.toggle('visible');
-    });
-
-
+  /*section4*/
 
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
@@ -181,37 +162,81 @@ function drawArc(ctx, x, y, spikes, outerRadius, innerRadius) {
 
 
 
+/*section6*/
+
+const eightynine = document.querySelector(".eightynine");
+const circle1 = document.querySelector(".circle1");
+
+eightynine.addEventListener('click', function() {
+  circle1.classList.toggle('visible');
+});
+
+
+const seven = document.querySelector('.seven');
+const circle2 = document.querySelector('.circle2');
+
+seven.addEventListener('click', function(){
+circle2.classList.toggle('visible')
+})
+
+
+const forty_five = document.querySelector('.forty_five');
+const circle3 = document.querySelector('.circle3');
+
+forty_five.addEventListener('click', function(){
+circle3.classList.toggle('visible')
+})
+
+const ninee = document.querySelector('.ninee');
+const circle4 = document.querySelector('.circle4');
+
+ninee.addEventListener('click', function(){
+circle4.classList.toggle('visible')
+})
+
+const sixxx = document.querySelector('.sixxx');
+const circle5 = document.querySelector('.circle5');
+
+sixxx.addEventListener('click', function(){
+circle5.classList.toggle('visible')
+})
+
+
 /*section7*/
 
 
-let cardsc1 = document.querySelectorAll(".trefic1, .bubic1, .pikic1");
 
-cardsc1.forEach(function(ecards) {
-  let isDragging = false; // Corrected variable name
+let containers = document.querySelectorAll(".cardsc1, .cardsc2");
+
+containers.forEach(function(container){
+  let cardsc = container.querySelectorAll("img");
+
+  cardsc.forEach(function(ecards) {
+  let isDragging = false; 
   let offsetX=0;
   let offsetY=0;
 
   ecards.addEventListener("mousedown", function(event) {
-    isDragging = true; // Corrected variable name
+    isDragging = true;
 
     offsetX = event.clientX - ecards.getBoundingClientRect().left;
     offsetY = event.clientY - ecards.getBoundingClientRect().top;
-    ecards.style.cursor = 'grabbing';  // Change cursor while dragging
+    ecards.style.cursor = 'grabbing';  
 
     function onMouseMove(event) {
-      if (isDragging) { // Corrected variable name
+      if (isDragging) { 
         let x = event.pageX - offsetX;
         let y = event.pageY - offsetY;
 
-        // Corrected:  Use style.left and style.top directly. No need for offsetParent
+  
         ecards.style.left = x + "px";
         ecards.style.top = y + "px";
       }
     }
 
     function onMouseUp(event) { 
-      isDragging = false; // Corrected variable name
-      ecards.style.cursor = 'grab'; // Restore the default cursor
+      isDragging = false; 
+      ecards.style.cursor = 'grab'; 
       document.removeEventListener("mousemove", onMouseMove);
       document.removeEventListener("mouseup", onMouseUp);
     }
@@ -221,6 +246,9 @@ cardsc1.forEach(function(ecards) {
 
   });
 });
+});
+
+
 
 
 
