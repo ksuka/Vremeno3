@@ -83,6 +83,21 @@
     margin-left: 1vw;
 }
 
+.cruti{
+    background: #E9DAC7;
+    position: absolute;
+    width: 75vw;
+    height: 12vw;
+    font-size: 9vw;
+    margin-top: 155vw;
+    margin-left: 25vw;
+    display: none;
+}
+
+.cruti{
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+}
 
 .chervi1{
     position:absolute;
@@ -164,13 +179,6 @@
     width: 100vw;
     height: 32vw;
 }
-
-/*.billiard img{
-    width: 60%;
-    margin-top: 3vw;
-    margin-left: 3vw;
-}
-*/
 
 .billiard{
     display: flex;
