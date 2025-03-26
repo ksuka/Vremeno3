@@ -229,7 +229,7 @@
     .section2{
         background-color: #907B60;
         width: 100vw;
-        height: 270vw;
+        height: 300vw;
     }
 
     .one{
@@ -364,7 +364,7 @@
 
     .dices{
         width: 100vw;
-        height: 70vw;
+        height: 100vw;
         margin-left: 0vw;
         margin-top: 200vw;
     }
@@ -395,19 +395,19 @@
     }
 
     #dicepiki{
-        width:31%;
-        position:absolute;
-        margin-top: -19.5vw;
-        margin-left: 11vw;
+        width: 31%;
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: 5vw;
         transform: rotate(-57.78deg);
         cursor: pointer;
     }
     
     #dicejoker{
-        width: 10%;
-        position:absolute;
-        margin-top: -11vw;
-        margin-left: 20vw;
+        width: 31%;
+        position: absolute;
+        margin-top: -3vw;
+        margin-left: 64vw;
         transform: rotate(-26.76deg);
         cursor: pointer;
     }
