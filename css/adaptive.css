@@ -412,6 +412,110 @@
         cursor: pointer;
     }
 
+    .section3{
+        width: 100vw;
+        height: 43vw;
+    }
+
+    .ticket img{
+        width: 270vw;
+        }
+
+        .section4{
+            width: 100vw;
+            height: 70vw;
+        }
+        
+        .lottery{
+               position:relative;
+            width: 100vw;
+            height: 60vw;
+            margin-left: 4vw;
+        }
+        
+        .lottery img{
+         width: 89vw;
+         height: 60vw;
+         margin-left: 0vw;
+        }
+
+        .masti img{
+        width: 15vw;
+        height: 15vw}
+
+        #canvas{
+display: none;
+        }
+
+        .coins{
+            display: none;
+                    }
+
+        .pika{
+    margin-top: -53vw;
+    margin-left: 11vw;
+        }
+       
+        .cherv{
+    margin-top: -53vw;
+    margin-left: 31vw;
+        }
+        
+        .pika2{
+            margin-top: -53vw;
+            margin-left: 51.5vw;
+        }
+        
+        .buba{
+            margin-top: -53vw;
+            margin-left: 71vw;
+        }
+        
+        .buba2{
+            margin-top: -33vw;
+   margin-left: 11vw;
+        }
+        
+        
+        .jokera{
+            margin-top: -33vw;
+            margin-left: 31vw;
+        }
+        
+        .cherv2{
+            margin-top: -33vw;
+            margin-left: 51.5vw;
+        }
+        
+        .trefa{
+            margin-top: -33vw;
+            margin-left: 71vw;
+        }
+        
+        .trefa2{
+            margin-top: -13vw;
+            margin-left: 11vw;
+        }
+        
+        .buba3{
+            margin-top: -13vw;
+            margin-left: 31vw;
+        }
+        
+        .pika3{
+            margin-top: -13vw;
+            margin-left: 51.5vw;
+        }
+        
+        .jokera2{
+            margin-top: -13vw;
+            margin-left: 71vw;
+        }
+
+
+
+
+
 
 
 .cardsc1{
