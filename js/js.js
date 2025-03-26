@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
+/*section1*/
 
 let roulettee = document.querySelector(".roulette");
 let number = 360*5 + Math.ceil(Math.random() * 1000);
@@ -9,8 +10,51 @@ roulettee.onclick = function () {
   roulettee.style.transform = "rotate(" + number + "deg)";
   number += Math.ceil(Math.random() * 1000);
 };
+/*
+let containers = document.querySelectorAll(".trefi1, .bubi1");
+
+containers.forEach(function(container){
+  let cardsc = container.querySelectorAll("img");
+
+  cardsc.forEach(function(ecards) {
+  let isDragging = false; 
+  let offsetX=0;
+  let offsetY=0;
+
+  ecards.addEventListener("mousedown", function(event) {
+    isDragging = true;
+
+    offsetX = event.clientX - ecards.getBoundingClientRect().left;
+    offsetY = event.clientY - ecards.getBoundingClientRect().top;
+    ecards.style.cursor = 'grabbing';  
+
+    function onMouseMove(event) {
+      if (isDragging) { 
+        let x = event.pageX - offsetX;
+        let y = event.pageY - offsetY;
+
+  
+        ecards.style.left = x + "px";
+        ecards.style.top = y + "px";
+      }
+    }
+
+    function onMouseUp(event) { 
+      isDragging = false; 
+      ecards.style.cursor = 'grab'; 
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    }
+
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+
+  });
+});
+});*/
 
 
+/*section2*/
 
 const dicebubi = document.getElementById("dicebubi");
   let rotation = 0;

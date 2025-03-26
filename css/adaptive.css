@@ -226,6 +226,202 @@
     margin-left: 25vw;
     }
 
+    .section2{
+        background-color: #907B60;
+        width: 100vw;
+        height: 270vw;
+    }
+
+    .one{
+        margin-top: 5vw;
+        margin-left: 7vw;
+        width: 35vw;
+        height: 35vw;
+        position: absolute;
+    }
+    
+    .one:after{
+        bottom: 7vw;
+        right: 1vw;
+        width: 15vw;
+        height: 15vw;
+        font-size: 7vw;
+    }
+
+    .eight{
+        margin-top: 19vw;
+        margin-left: 57vw;
+        width: 35vw;
+        height: 35vw;
+        position: absolute;
+    }
+    
+    .eight::after{
+        bottom: 7vw;
+        right: 1vw;
+        width: 15vw;
+        height: 15vw;
+        font-size: 7vw;
+    }
+
+.thirteen{
+    margin-top: 50vw;
+    margin-left: 7vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.thirteen::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+
+
+.two{
+    margin-top: 64vw;
+    margin-left: 57vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.two::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+    
+.fourteen{
+    margin-top: 95vw;
+    margin-left: 7vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.fourteen::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+
+.six{
+    margin-top: 110vw;
+    margin-left: 57vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.six::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+
+.eleven{
+    margin-top: 140vw;
+    margin-left: 7vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.eleven::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+
+.nine{
+    margin-top: 155vw;
+    margin-left: 57vw;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+}
+
+.nine::after{
+    bottom: 7vw;
+    right: 1vw;
+    width: 15vw;
+    height: 15vw;
+    font-size: 7vw;
+}
+
+
+    .dices{
+        width: 100vw;
+        height: 70vw;
+        margin-left: 0vw;
+        margin-top: 200vw;
+    }
+
+    #dicebubi{
+        width: 31%;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        transform: rotate(18.52deg);
+        cursor: pointer;
+    }
+
+    #dicetrefi{
+        width: 31%;
+        margin-top: -32vw;
+        position: absolute;
+        margin-left: 63vw;
+        transform: rotate(0deg);
+        cursor: pointer;
+    }
+
+    #dicechervi{
+        width: 31%;
+        margin-top: -6vw;
+        margin-left: 33vw;
+        transform: rotate(8.4deg);
+        cursor: pointer;
+    }
+
+    #dicepiki{
+        width:31%;
+        position:absolute;
+        margin-top: -19.5vw;
+        margin-left: 11vw;
+        transform: rotate(-57.78deg);
+        cursor: pointer;
+    }
+    
+    #dicejoker{
+        width: 10%;
+        position:absolute;
+        margin-top: -11vw;
+        margin-left: 20vw;
+        transform: rotate(-26.76deg);
+        cursor: pointer;
+    }
+
+
+
+.cardsc1{
+display: none;
+}
+
+.cardsc2{
+    display: none;
+    }
+
 
     #canvas{
         width: 53vw;
