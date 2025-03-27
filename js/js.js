@@ -285,10 +285,22 @@ function onMouseUp() {
 }
 
 
+const hand2 = document.querySelector('.hand2')
+const hand1 = document.querySelector('.hand1')
+
+
+hand1.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches || "mousedown") {
+
+    hand2.style.animation = "hand2 2s ease-in-out forwads"; 
+  } else {
+    
+    hand2.style.animation = "";  
+  }
 
 
 
-
+})
 
 
 

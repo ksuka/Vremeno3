@@ -720,6 +720,7 @@ display: none;
             width: 90vw;
             margin-top: 19vw;
             margin-left: 50vw;
+           /* animation-play-state: running;*/
         }
         
         .hand3{

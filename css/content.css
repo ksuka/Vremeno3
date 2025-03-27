@@ -465,7 +465,6 @@
 .ticket{
     display: inline-block;
    /* padding-left: 100%;*/
-    animation: ticket 15s linear infinite;
 }
 
 .ticket:hover{
@@ -491,40 +490,35 @@ width: 120vw;
 .ticket1{
     margin-top: 1.5vw;
     margin-left: 0vw;
+    animation: ticket1 20s linear infinite;
+    animation-delay: -20s;
 }
 
-.ticket1:hover{
-    animation-play-state: paused;
+.ticket2{
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    animation: ticket2 20s linear infinite;
+    animation-delay: -10s;
 }
 
-@keyframes ticket {
-    from {
-      transform: translateX(0);
+@keyframes ticket1 {
+    0% {
+        transform: translateX(100%);
     }
-    to {
-      transform: translateX(calc(-100% - 20px));
+    100% {
+        transform: translateX(-100%);
     }
   }
-/*
-.ticket2{
-    margin-top: -21vw;
-    margin-left: -0.3vw;
-    position: relative;
-}
 
-.ticket3{
-    margin-top: -17vw;
-    margin-left: 50vw;
-    position: relative;
 
-}
-
-.ticket4{
-    margin-top: -20vw;
-    margin-left: 75vw;
-    position: relative;
-
-}*/
+  @keyframes ticket2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+  }
 
 .section4{
     width: 100vw;
@@ -1206,6 +1200,13 @@ animation-play-state: paused;
     margin-left: 60vw;
     transform: rotateX(180deg);
     pointer-events: none;
+    /*animation: hand2 2s ease-in-out;
+    animation-play-state: paused;*/
+}
+
+@keyframes hand2{
+    0%{left: -5vw};
+    100%{left: 5vw}
 }
 
 .hand3{
