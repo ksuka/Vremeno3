@@ -97,12 +97,7 @@
 }
 
 @media screen and (min-width: 414px) and (max-width: 767px){
-    #canvas{
-        width: 53vw;
-        height: 46.5vw;
-        margin-top: -36vw;
-        margin-left: 23.5vw;
-    }
+
 
     #luck2{
         margin-left: -1vw;
@@ -443,14 +438,6 @@
         width: 15vw;
         height: 15vw}
 
-        #canvas{
-display: none;
-        }
-
-        .coins{
-            display: none;
-                    }
-
         .pika{
     margin-top: -53vw;
     margin-left: 11vw;
@@ -512,10 +499,75 @@ display: none;
             margin-left: 71vw;
         }
 
+        #canvas{
+            width: 81vw;
+            height: 70vw;
+            margin-top: -56vw;
+            margin-left: 8vw;
+        }
+            
+        .coin1{
 
+            margin-top: -65vw;
+            margin-left: -10vw;
+        }
+        
+        .coin2{
+            position:absolute;
+            margin-top: -45vw;
+            margin-left: -2vw;
+            pointer-events: none;
+        }
 
+        .coin3{
+            margin-top: -38vw;
+            margin-left: -11vw;
+        }
 
+        .coin4{
+            margin-top: -8vw;
+            margin-left: 0vw;
+        }
 
+        .coin5{
+            margin-top: 0vw;
+            margin-left: -5vw;
+        }
+
+        .coin6{
+            margin-top: -6vw;
+            margin-left: 10vw;
+        }
+
+        .coin7{
+            margin-top: -6vw;
+            margin-left: 9vw;
+        }
+
+        .coin9{
+            margin-top: -20vw;
+            margin-left: -9vw;
+        }
+
+        .coin10{
+            margin-top: -30vw;
+            margin-left: -18vw;
+        }
+
+        .coin11{
+            margin-top: -45vw;
+            margin-left: -20vw;
+        }
+
+        .coin12{
+            margin-top: -65vw;
+            margin-left: -30vw;
+        }
+
+        .coin13{
+            margin-top: -70vw;
+            margin-left: -90vw;
+        }
 
 
 .cardsc1{
@@ -526,13 +578,6 @@ display: none;
     display: none;
     }
 
-
-    #canvas{
-        width: 53vw;
-        height: 46.5vw;
-        margin-top: -36vw;
-        margin-left: 23.5vw;
-    }
 
     #luck2{
         margin-left: -1vw;
