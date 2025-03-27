@@ -705,11 +705,35 @@ display: none;
 
         .secion7{
             width: 100vw;
-            height: 250vw;
+            height: 190vw;
 
         }
 
-
+        .hand1{
+            width: 90vw;
+            margin-top: 2vw;
+            margin-left: -25vw;
+            transform: rotate(-90deg);
+        }
+        
+        .hand2{
+            width: 90vw;
+            margin-top: 19vw;
+            margin-left: 50vw;
+        }
+        
+        .hand3{
+            width: 90vw;
+            margin-top: 15vw;
+            margin-left: -25vw;
+        }
+        
+        .hand4{
+            width: 90vw;
+            margin-top: 55vw;
+            margin-left: 50vw;
+            transform: rotate(180deg);
+        }
 
 
 

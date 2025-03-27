@@ -1217,7 +1217,7 @@ animation-play-state: paused;
 }
 
 .hand4{
-    position: absolute;
+    position: relative;
     width:50vw;
     margin-top: -18vw;
     margin-left: -23vw;
