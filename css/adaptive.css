@@ -570,6 +570,46 @@
         }
 
 
+
+        .section5{
+            width: 100vw;
+            height: 180vw;
+        }
+
+        .spiral{
+            width: 100vw;
+            height: 100vw;
+        }
+
+        .spiral img{
+            width: 150%;
+            margin-top: -5vw;
+            margin-left: -10vw;
+        }
+
+        #timer{
+            width: 100vw;
+            height: 40vw;
+            margin-left: 0vw;
+            margin-top: 0vw;
+            font-size: 27vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .luckyy{
+            width: 55vw;
+            height: 28vw;
+            margin-left: 45vw;
+            margin-top: 3vw;
+        }
+
+
+
+
+
+
 .cardsc1{
 display: none;
 }
