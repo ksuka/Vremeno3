@@ -618,6 +618,91 @@
             display: none;
           }
 
+          .grey{
+            width: 100vw;
+            height: 15vw;
+          }
+        
+        .bingo{
+            width: 100vw;
+            height: 204vw;
+        }
+        
+        .grid{
+display: none;
+        }
+
+        .grid3{
+            display: block;
+            width: 100vw;
+        }
+
+        .eightynine{
+            margin-top: -199vw;
+            margin-left: 5vw;
+            font-size: 17vw;
+        }
+
+        .seven{
+            margin-top: 103vw;
+            margin-left: 6vw;
+            font-size: 17vw;
+        }
+
+        .forty_five{
+            margin-top: -76vw;
+            margin-left: 38vw;
+            font-size: 17vw;
+        }
+
+        .ninee{
+            margin-top: 72vw;
+            margin-left: 43vw;
+            font-size: 17vw;
+        }
+        
+        .sixxx{
+            margin-top: -76vw;
+            margin-left: 78vw;
+            font-size: 17vw;
+        }
+
+
+        .circle1{
+            width: 25vw;
+            height: 25vw;
+            margin-top: -113vw;
+            margin-left: 4vw;
+        }
+
+        .circle2{
+            width: 25vw;
+            height: 25vw;
+            margin-top: 7vw;
+            margin-left: 4vw;
+        }
+
+        .circle3{
+            width: 25vw;
+            height: 25vw;
+            margin-top: -51vw;
+            margin-left: 38vw;
+        }
+
+        .circle4{
+            width: 25vw;
+            height: 25vw;
+            margin-top: 37vw;
+            margin-left: 37vw;
+        }
+
+        .circle5{
+            width: 25vw;
+            height: 25vw;
+            margin-top: -22vw;
+            margin-left: 71vw;
+        }
+
 
 
 

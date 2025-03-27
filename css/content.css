@@ -829,6 +829,9 @@ animation-play-state: paused;
     margin-top: -48vw;
     font-size: 15vw;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #timerr{
@@ -891,27 +894,6 @@ animation-play-state: paused;
 .luckyyyy{
     margin-top: -1vw;
 }
-  /*
-  #luck7{
-      margin-left: 0vw;
-      transform: rotate(35.99deg);
-  }
-  
-  #luck8{
-      margin-left: -1vw;
-      transform: rotate(-35.99deg);
-  }
-  
-  #luck9{
-      margin-left: 0vw;
-      transform: rotate(35.99deg);
-  }
-  
-  #luck10{
-      margin-left: -1vw;
-      transform: rotate(-35.99deg);
-  }
-*/
   .grey{
     width: 100vw;
     height: 10vw;
@@ -927,6 +909,10 @@ animation-play-state: paused;
 
 .grid{
     width: 100vw;
+}
+
+.grid3{
+    display: none;
 }
 
 .eightynine{
