@@ -129,7 +129,7 @@
 
     .section1{
         width: 100vw;
-        height: 180vw;
+        height: 190vw;
     }
 
     .roulette{
@@ -702,6 +702,13 @@ display: none;
             margin-top: -22vw;
             margin-left: 71vw;
         }
+
+        .secion7{
+            width: 100vw;
+            height: 250vw;
+
+        }
+
 
 
 
