@@ -1202,6 +1202,18 @@ animation-play-state: paused;
     100%{top: 15vw}
 }
 
+.cards71{
+    display: none;
+}
+
+.animate-cards71{
+animation: cards71 2s ease-in-out forwards;;
+}
+
+@keyframes cards71{
+    0%{top: -15vw};
+    100%{top: 15vw}
+}
 
 .hand2{
     position: relative;
@@ -1217,16 +1229,51 @@ animation-play-state: paused;
   }
 
 @keyframes hand2{
-    0%{left: -15vw};
-    100%{left: 15vw}
+    0%{left: 15vw};
+    100%{left: -15vw}
 }
+
+.cards72{
+    display: none;
+}
+
+.animate-cards72{
+animation: cards72 2s ease-in-out forwards;;
+}
+
+@keyframes cards72{
+    0%{left: 15vw};
+    100%{left: -15vw}
+}
+
 
 .hand3{
     position: absolute;
     width:50vw;
     margin-top: -45vw;
     margin-left: -15vw;
-    pointer-events: none;
+}
+
+.animate-hand3 {
+    animation: hand3 2s ease-in-out forwards;
+  }
+
+@keyframes hand3{
+    0%{left: -15vw};
+    100%{left: 15vw}
+}
+
+.cards73{
+    display: none;
+}
+
+.animate-cards73{
+animation: cards73 2s ease-in-out forwards;;
+}
+
+@keyframes cards73{
+    0%{left: -15vw};
+    100%{left: 15vw}
 }
 
 .hand4{
@@ -1234,10 +1281,30 @@ animation-play-state: paused;
     width:50vw;
     margin-top: -18vw;
     margin-left: -23vw;
-    pointer-events: none;
     transform: rotateX(180deg);
 }
 
+.cards74{
+    display: none;
+}
+
+.animate-cards74{
+animation: cards74 2s ease-in-out forwards;;
+}
+
+@keyframes cards74{
+    0%{left: 15vw};
+    100%{left: -15vw}
+}
+
+.animate-hand4{
+    animation: hand4 2s ease-in-out;
+}
+
+@keyframes hand4{
+    0%{left: 15vw};
+    100%{left: -15vw}
+}
 
 .stripe1{
     width: 55vw;

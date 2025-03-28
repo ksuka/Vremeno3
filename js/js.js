@@ -285,22 +285,8 @@ function onMouseUp() {
 }
 
 
-const hand2 = document.querySelector('.hand2')
 
 
-hand2.addEventListener('click', function(){
-  if (window.matchMedia("(max-width: 768px)").matches) {
-     if(hand2.classList.contains("animate-hand2")){
-      hand2.classList.remove("animate-hand2");  
-     }
-     else{
-      hand2.classList.add("animate-hand2") 
-     }
-  } 
-  else {
-    hand2.classList.remove("animate-hand2") 
-  }
-})
 
 
 const hand1 = document.querySelector('.hand1')
@@ -319,8 +305,126 @@ hand1.addEventListener('click', function(){
   }
 })
 
+const cards71 = document.querySelector('.cards71')
+const hand11 = document.querySelector('.hand1')
+
+hand11.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(cards71.classList.contains("animate-cards71")){
+      cards71.classList.remove("animate-cards71");  
+     }
+     else{
+      cards71.classList.add("animate-cards71") 
+     }
+  } 
+  else {
+    cards71.classList.remove("animate-cards71") 
+  }
+})
+
+const hand2 = document.querySelector('.hand2')
+
+hand2.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(hand2.classList.contains("animate-hand2")){
+      hand2.classList.remove("animate-hand2");  
+     }
+     else{
+      hand2.classList.add("animate-hand2") 
+     }
+  } 
+  else {
+    hand2.classList.remove("animate-hand2") 
+  }
+})
 
 
+const hand22 = document.querySelector('.hand2')
+const cards72 = document.querySelector('.cards72')
+
+hand22.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(cards72.classList.contains("animate-cards72")){
+      cards72.classList.remove("animate-cards72");  
+     }
+     else{
+      cards72.classList.add("animate-cards72") 
+     }
+  } 
+  else {
+    cards72.classList.remove("animate-cards72") 
+  }
+})
+
+
+
+
+const hand3 = document.querySelector('.hand3')
+
+hand3.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(hand3.classList.contains("animate-hand3")){
+      hand3.classList.remove("animate-hand3");  
+     }
+     else{
+      hand3.classList.add("animate-hand3") 
+     }
+  } 
+  else {
+    hand3.classList.remove("animate-hand3") 
+  }
+})
+
+const hand33 = document.querySelector('.hand3')
+const cards73 = document.querySelector('.cards73')
+
+hand33.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    if(cards73.classList.contains("animate-cards73")){
+     cards73.classList.remove("animate-cards73");  
+    }
+    else{
+     cards73.classList.add("animate-cards73") 
+    }
+ } 
+ else {
+   cards73.classList.remove("animate-cards73") 
+ }
+})
+
+
+const hand4 = document.querySelector('.hand4')
+
+hand4.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(hand4.classList.contains("animate-hand4")){
+      hand4.classList.remove("animate-hand4");  
+     }
+     else{
+      hand4.classList.add("animate-hand4") 
+     }
+  } 
+  else {
+    hand4.classList.remove("animate-hand4") 
+  }
+})
+
+const hand44 = document.querySelector('.hand4')
+const cards74 = document.querySelector('.cards74')
+
+hand44.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    if(cards74.classList.contains("animate-cards74")){
+     cards74.classList.remove("animate-cards74");  
+    }
+    else{
+     cards74.classList.add("animate-cards74") 
+    }
+ } 
+ else {
+   cards74.classList.remove("animate-cards74") 
+ }
+})
 
 
 });

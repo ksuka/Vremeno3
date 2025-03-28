@@ -711,35 +711,66 @@ display: none;
 
         .secion7{
             width: 100vw;
-            height: 190vw;
-
+            height: 210vw;
+display: flex;
+align-items: flex-start;
         }
 
         .hand1{
             width: 90vw;
-            margin-top: 2vw;
-            margin-left: -25vw;
+            margin-top: 9vw;
+            margin-left: -108vw;
             transform: rotate(-90deg);
         }
-        
+
+        .cards71{
+            display: block;
+            width: 50vw;
+            position: relative;
+            margin-top: 10vw;
+        }
+
         .hand2{
             width: 90vw;
-            margin-top: 19vw;
-            margin-left: 50vw;
-           /* animation-play-state: running;*/
+            margin-top: 75vw;
+            margin-left: -40vw;
+        }
+
+        .cards72{
+            display: block;
+            width: 52vw;
+            position: relative;
+            margin-top: 65vw;
+            margin-left: -15vw;
         }
         
         .hand3{
             width: 90vw;
-            margin-top: 15vw;
-            margin-left: -25vw;
+            margin-top: 112vw;
+            margin-left: -35vw;
         }
         
+        .cards73{
+            display: block;
+            width: 44vw;
+            position: relative;
+            margin-top: 105vw;
+            margin-left: -80vw;
+        }
+
         .hand4{
             width: 90vw;
-            margin-top: 55vw;
-            margin-left: 50vw;
+            margin-top: 165vw;
+            margin-left: -89vw;
             transform: rotate(180deg);
+        }
+
+        .cards74{
+            display: block;
+            width: 58vw;
+            position: relative;
+            margin-top: 155vw;
+            margin-left: -19vw;
         }
 
 
