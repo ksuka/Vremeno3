@@ -10,48 +10,7 @@ roulettee.onclick = function () {
   roulettee.style.transform = "rotate(" + number + "deg)";
   number += Math.ceil(Math.random() * 1000);
 };
-/*
-let containers = document.querySelectorAll(".trefi1, .bubi1");
 
-containers.forEach(function(container){
-  let cardsc = container.querySelectorAll("img");
-
-  cardsc.forEach(function(ecards) {
-  let isDragging = false; 
-  let offsetX=0;
-  let offsetY=0;
-
-  ecards.addEventListener("mousedown", function(event) {
-    isDragging = true;
-
-    offsetX = event.clientX - ecards.getBoundingClientRect().left;
-    offsetY = event.clientY - ecards.getBoundingClientRect().top;
-    ecards.style.cursor = 'grabbing';  
-
-    function onMouseMove(event) {
-      if (isDragging) { 
-        let x = event.pageX - offsetX;
-        let y = event.pageY - offsetY;
-
-  
-        ecards.style.left = x + "px";
-        ecards.style.top = y + "px";
-      }
-    }
-
-    function onMouseUp(event) { 
-      isDragging = false; 
-      ecards.style.cursor = 'grab'; 
-      document.removeEventListener("mousemove", onMouseMove);
-      document.removeEventListener("mouseup", onMouseUp);
-    }
-
-    document.addEventListener("mousemove", onMouseMove);
-    document.addEventListener("mouseup", onMouseUp);
-
-  });
-});
-});*/
 
 
 /*section2*/
@@ -107,10 +66,10 @@ const dicebubi = document.getElementById("dicebubi");
   function handlemouseMove(event) {
     let ones = document.querySelectorAll(".one, .eight, .thirteen, .two, .fourteen, .six, .eleven, .nine"); 
 
-    ones.forEach(function(one) { // Итерируемся по каждому элементу NodeList
-      let rect = one.getBoundingClientRect(); // Получаем размеры и позицию каждого элемента
-      let oneX = rect.left + one.clientWidth / 2;  // Центр элемента по X
-      let oneY = rect.top + one.clientHeight / 2; // Центр элемента по Y
+    ones.forEach(function(one) { 
+      let rect = one.getBoundingClientRect(); 
+      let oneX = rect.left + one.clientWidth / 2; 
+      let oneY = rect.top + one.clientHeight / 2; 
 
       let radian = Math.atan2(event.clientX - oneX, event.clientY - oneY);
       let rotation = (radian * (180 / Math.PI) * -1) + 90;

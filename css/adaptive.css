@@ -96,10 +96,29 @@
       }
 }
 
-@media screen and (min-width: 414px) and (max-width: 768px){
+@media screen and (min-width: 415px) and (max-width: 768px){
     .section1{
         width: 100vw;
         height: 190vw;
+        overflow-x: hidden;
+
+    }
+
+    .vremya{
+        position: relative;
+        width: 25vw;
+        height: 6vw;
+        font-size: 4vw;
+        margin-top: 31vw;
+        margin-left: 75vw;
+    }
+    
+    .precious{
+        width: 80vw;
+        height: 12vw;
+        font-size: 9vw;
+        margin-top: 6.5vw;
+        margin-left: -10vw;
     }
 
     .roulette{
@@ -779,6 +798,8 @@ display: none;
     .section1{
         width: 100vw;
         height: 190vw;
+        overflow-x: hidden;
+
     }
 
     .roulette{
@@ -837,7 +858,8 @@ display: none;
         margin-left: 2vw;
     }
 
-    .vremya{
+    .vremya{ 
+        position: relative;
         width: 75vw;
         height: 12vw;
         font-size: 9vw;
@@ -855,7 +877,7 @@ display: none;
         width: 80vw;
         height: 12vw;
         font-size: 9vw;
-        margin-top: 38vw;
+        margin-top: 6.5vw;
         margin-left: -10vw;
     }
     
@@ -866,7 +888,7 @@ display: none;
 
     .cruti{
         display:block;
-        margin-top: 155vw;
+        margin-top: 130vw;
     margin-left: 25vw;
     }
 
