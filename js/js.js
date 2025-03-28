@@ -286,23 +286,38 @@ function onMouseUp() {
 
 
 const hand2 = document.querySelector('.hand2')
-const hand1 = document.querySelector('.hand1')
 
 
-hand1.addEventListener('click', function(){
-  if (window.matchMedia("(max-width: 768px)").matches || "mousedown") {
-
-    hand2.style.animation = "hand2 2s ease-in-out forwads"; 
-  } else {
-    
-    hand2.style.animation = "";  
+hand2.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(hand2.classList.contains("animate-hand2")){
+      hand2.classList.remove("animate-hand2");  
+     }
+     else{
+      hand2.classList.add("animate-hand2") 
+     }
+  } 
+  else {
+    hand2.classList.remove("animate-hand2") 
   }
-
-
-
 })
 
 
+const hand1 = document.querySelector('.hand1')
+
+hand1.addEventListener('click', function(){
+  if (window.matchMedia("(max-width: 768px)").matches) {
+     if(hand1.classList.contains("animate-hand1")){
+      hand1.classList.remove("animate-hand1");  
+     }
+     else{
+      hand1.classList.add("animate-hand1") 
+     }
+  } 
+  else {
+    hand1.classList.remove("animate-hand1") 
+  }
+})
 
 
 

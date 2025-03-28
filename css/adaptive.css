@@ -96,7 +96,13 @@
       }
 }
 
-@media screen and (min-width: 414px) and (max-width: 767px){
+@media screen and (min-width: 414px) and (max-width: 768px){
+    #canvas{
+        width: 53vw;
+        height: 46.5vw;
+        margin-top: -36vw;
+        margin-left: 23.5vw;
+    }
 
 
     #luck2{

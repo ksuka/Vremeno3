@@ -1190,8 +1190,18 @@ animation-play-state: paused;
     width:50vw;
     margin-top: 2vw;
     margin-left: 65vw;
-    pointer-events: none;
+    cursor: pointer;
 }
+
+.animate-hand1 {
+    animation: hand1 2s ease-in-out forwards;
+  }
+
+  @keyframes hand1{
+    0%{top: -15vw};
+    100%{top: 15vw}
+}
+
 
 .hand2{
     position: relative;
@@ -1199,14 +1209,16 @@ animation-play-state: paused;
     margin-top: 7vw;
     margin-left: 60vw;
     transform: rotateX(180deg);
-    pointer-events: none;
-    /*animation: hand2 2s ease-in-out;
-    animation-play-state: paused;*/
+   cursor: pointer;
 }
 
+.animate-hand2 {
+    animation: hand2 2s ease-in-out forwards;
+  }
+
 @keyframes hand2{
-    0%{left: -5vw};
-    100%{left: 5vw}
+    0%{left: -15vw};
+    100%{left: 15vw}
 }
 
 .hand3{
