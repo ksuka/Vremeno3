@@ -1306,6 +1306,23 @@ animation: cards74 2s ease-in-out forwards;;
     100%{left: -15vw}
 }
 
+.piki73{
+    display: none;
+}
+
+.joker74{
+    display: none;
+}
+
+.piki74{
+    display: none;
+}
+
+.trefi74{
+    display: none;
+}
+
+
 .stripe1{
     width: 55vw;
     height: 7vw;
