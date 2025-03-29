@@ -98,7 +98,7 @@
         position: absolute;
         width: 30%;
         margin-left: 73vw;
-        margin-top: 30vw;
+        margin-top: 9vw;
         transform: rotate(45.21deg);
     }
 
@@ -600,6 +600,24 @@
             align-items: center;
             justify-content: center;
         }
+
+        .timerr{
+            margin-left: -1vw;
+        
+        }
+
+        #min{
+            margin-left: 19vw;
+          }
+
+          .timerrr{
+            margin-left: -1vw;
+        
+        }
+
+        #sec{
+            margin-left: 19vw;
+          }
 
         .luckyy{
             width: 100vw;
@@ -1282,6 +1300,24 @@ display: none;
             align-items: center;
             justify-content: center;
         }
+
+        .timerr{
+            margin-left: -1vw;
+        
+        }
+
+        #min{
+            margin-left: 19vw;
+          }
+
+          .timerrr{
+            margin-left: -1vw;
+        
+        }
+
+        #sec{
+            margin-left: 19vw;
+          }
 
         .luckyy{
             width: 100vw;
