@@ -571,6 +571,24 @@
             justify-content: center;
         }
 
+        .timerr{
+            margin-left: -5vw;
+        
+        }
+
+        #min{
+            margin-left: 19vw;
+          }
+
+          .timerrr{
+            margin-left: -1vw;
+        
+        }
+
+        #sec{
+            margin-left: 19vw;
+          }
+
         .luckyy{
             width: 100vw;
             height: 90vw;
