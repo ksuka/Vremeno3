@@ -82,6 +82,8 @@ const dicebubi = document.getElementById("dicebubi");
 
 
 
+/*section3*/
+
   const luck1 = document.querySelectorAll('#luck1, #luck2, #luck3, #luck4, #luck5, #luck6');
   
 
@@ -99,6 +101,32 @@ const dicebubi = document.getElementById("dicebubi");
   });
   })
   
+
+  const timerElements = document.querySelectorAll('.timerr, .timerrr');
+
+  function getRandomTwoDigitNumber() {
+    return String(Math.floor(Math.random() * 90) + 10).padStart(2, '0');
+  }
+  
+  function animateNumbers(timerElement) { 
+        const oldNumberElement = timerElement.querySelector('.number'); 
+  
+        if (oldNumberElement) {
+          oldNumberElement.addEventListener("animationend", () => {
+            oldNumberElement.remove();
+          });
+          oldNumberElement.classList.add("number");
+        }
+  
+        const newNumber = getRandomTwoDigitNumber();
+        timerElement.innerHTML = `<span class="number">${newNumber}</span>`;
+      }
+  
+
+  timerElements.forEach(timerElement => {
+      animateNumbers(timerElement); 
+      setInterval(() => animateNumbers(timerElement), 30);  
+  });
 
 
   /*section4*/

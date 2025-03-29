@@ -104,23 +104,6 @@
 
     }
 
-    .vremya{
-        position: relative;
-        width: 25vw;
-        height: 6vw;
-        font-size: 4vw;
-        margin-top: 31vw;
-        margin-left: 75vw;
-    }
-    
-    .precious{
-        width: 80vw;
-        height: 12vw;
-        font-size: 9vw;
-        margin-top: 6.5vw;
-        margin-left: -10vw;
-    }
-
     .roulette{
         position: absolute;
         display: flex;
@@ -177,7 +160,8 @@
         margin-left: 2vw;
     }
 
-    .vremya{
+    .vremya{ 
+        position: relative;
         width: 75vw;
         height: 12vw;
         font-size: 9vw;
@@ -195,7 +179,7 @@
         width: 80vw;
         height: 12vw;
         font-size: 9vw;
-        margin-top: 38vw;
+        margin-top: 6.5vw;
         margin-left: -10vw;
     }
     
@@ -206,7 +190,7 @@
 
     .cruti{
         display:block;
-        margin-top: 155vw;
+        margin-top: 130vw;
     margin-left: 25vw;
     }
 
@@ -576,7 +560,7 @@
             margin-left: -17vw;
         }
 
-        #timer{
+        .timer{
             width: 100vw;
             height: 40vw;
             margin-left: 0vw;
@@ -1258,7 +1242,7 @@ display: none;
             margin-left: -17vw;
         }
 
-        #timer{
+        .timer{
             width: 100vw;
             height: 40vw;
             margin-left: 0vw;
