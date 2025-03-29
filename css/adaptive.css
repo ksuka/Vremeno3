@@ -94,6 +94,14 @@
         margin-top: 45vw;
     }
 
+    .bubi1 {
+        position: absolute;
+        width: 30%;
+        margin-left: 73vw;
+        margin-top: 30vw;
+        transform: rotate(45.21deg);
+    }
+
 
     #canvas{
         width: 53vw;

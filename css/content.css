@@ -107,6 +107,15 @@
     transform: rotate(-94.6deg);
 }
 
+.chervi1 img:hover{
+    animation: chervi1 2s linear infinite alternate;
+}
+
+@keyframes chervi1{
+    0%{transform:rotate(94deg)};
+    100%{transform:rotate(0deg)};
+}
+
 .chervi1 img{
     width: 23%;
 }
@@ -123,6 +132,15 @@
     width: 23%;
 }
 
+.trefi1 img:hover{
+    animation: trefi1 0.7s linear infinite alternate;
+}
+
+@keyframes trefi1{
+    0%{transform:rotate(15.42deg)};
+    100%{transform:rotate(-15.42deg)};
+}
+
 .bubi1{
     position:absolute;
     width: 30%;
@@ -135,6 +153,14 @@
     width: 23%;
 }
 
+.bubi1 img:hover{
+    animation: bubi1 1s linear infinite alternate;
+}
+
+@keyframes bubi1{
+    0%{transform:rotate(45.21deg)};
+    100%{transform:rotate(-45.21deg)};
+}
 
 .joker1{
     position:absolute;
@@ -146,6 +172,15 @@
 
 .joker1 img{
     width: 23%;
+}
+
+.joker1 img:hover{
+    animation: joker1 1s linear infinite alternate;
+}
+
+@keyframes joker1{
+    0%{transform:rotate(45.21deg)};
+    100%{transform:rotate(-45.21deg)};
 }
 
 .trefi2{
@@ -160,11 +195,20 @@
     width: 23%;
 }
 
+.trefi2 img:hover{
+    animation: trefi2 1s linear infinite alternate;
+}
+
+@keyframes trefi2{
+    0%{transform:rotate(45.21deg)};
+    100%{transform:rotate(-45.21deg)};
+}
+
 
 .chervi2{
     position:absolute;
     width: 30%;
-    margin-left: 11vw;
+    margin-left: 9vw;
     margin-top: 18vw;
     transform: rotate(49.69deg);
 }
@@ -172,6 +216,15 @@
 
 .chervi2  img{
     width: 23%;
+}
+
+.chervi2 img:hover{
+    animation: chervi2 1s linear infinite alternate;
+}
+
+@keyframes chervi2{
+    0%{transform:rotate(49.69deg)};
+    100%{transform:rotate(-49.69deg)};
 }
 
 .section2{
